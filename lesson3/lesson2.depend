@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1549500769 source:c:\users\dasec\desktop\csci191\lesson2\main.cpp
+	<windows.h>
+	<string.h>
+	<GLScene.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+
+1549500653 c:\users\dasec\desktop\csci191\lesson2\include\glscene.h
+	<windows.h>
+	<GL/glut.h>
+
+1548895564 c:\users\dasec\desktop\csci191\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1549502063 source:c:\users\dasec\desktop\csci191\lesson2\src\glscene.cpp
+	"GLScene.h"
+	"GLLight.h"
+
+1549501806 source:c:\users\dasec\desktop\csci191\lesson2\src\gllight.cpp
+	"GLLight.h"
+
+1549501272 c:\users\dasec\desktop\csci191\lesson2\include\gllight.h
+	<GLScene.h>
+
+1549500769 source:c:\users\dasec\desktop\csci191\lesson3\main.cpp
+	<windows.h>
+	<string.h>
+	<GLScene.h>
+	<stdlib.h>
+	<iostream>
+	<windows.h>
+
+1549500653 c:\users\dasec\desktop\csci191\lesson3\include\glscene.h
+	<windows.h>
+	<GL/glut.h>
+
+1549501806 source:c:\users\dasec\desktop\csci191\lesson3\src\gllight.cpp
+	"GLLight.h"
+
+1549501272 c:\users\dasec\desktop\csci191\lesson3\include\gllight.h
+	<GLScene.h>
+
+1549932598 source:c:\users\dasec\desktop\csci191\lesson3\src\glscene.cpp
+	"GLScene.h"
+	"GLLight.h"
+	"Inputs.h"
+
+1549933789 c:\users\dasec\desktop\csci191\lesson3\include\inputs.h
+	<windows.h>
+
+1549933812 source:c:\users\dasec\desktop\csci191\lesson3\src\inputs.cpp
+	"Inputs.h"
+
