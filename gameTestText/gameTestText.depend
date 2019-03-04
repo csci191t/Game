@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1551655878 source:c:\users\dasec\desktop\csci191\gametesttext\main.cpp
+	<iostream>
+	"hero.h"
+	"item.h"
+	"deck.h"
+	"monster.h"
+
+1551205026 source:c:\users\dasec\desktop\csci191\gametesttext\hero.cpp
+	<iostream>
+	<cstdlib>
+	"hero.h"
+	"string.h"
+	<vector>
+	<fstream>
+	"item.h"
+
+1551208638 c:\users\dasec\desktop\csci191\gametesttext\hero.h
+	"string.h"
+	<vector>
+	"item.h"
+
+1551220179 c:\users\dasec\desktop\csci191\gametesttext\item.h
+	<iostream>
+	"string.h"
+
+1551208218 source:c:\users\dasec\desktop\csci191\gametesttext\item.cpp
+	"item.h"
+	<iostream>
+	"string.h"
+
+1551220200 c:\users\dasec\desktop\csci191\gametesttext\include\item.h
+	<iostream>
+	"string.h"
+
+1551485518 source:c:\users\dasec\desktop\csci191\gametesttext\src\hero.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"hero.h"
+	<string>
+	<algorithm>
+
+1551482771 c:\users\dasec\desktop\csci191\gametesttext\include\hero.h
+	"string.h"
+	<vector>
+	"item.h"
+
+1551208218 source:c:\users\dasec\desktop\csci191\gametesttext\src\item.cpp
+	"item.h"
+	<iostream>
+	"string.h"
+
+1551482524 source:c:\users\dasec\desktop\csci191\gametesttext\src\deck.cpp
+	"deck.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+	<algorithm>
+	<random>
+	<chrono>
+
+1551656277 c:\users\dasec\desktop\csci191\gametesttext\include\deck.h
+	<iostream>
+	"string.h"
+	<vector>
+	"item.h"
+
+1551480013 source:c:\users\dasec\desktop\csci191\gametesttext\src\location.cpp
+	"location.h"
+
+1551480355 c:\users\dasec\desktop\csci191\gametesttext\include\location.h
+
+1551655541 c:\users\dasec\desktop\csci191\gametesttext\include\monster.h
+	"string.h"
+	"item.h"
+
+1551656124 source:c:\users\dasec\desktop\csci191\gametesttext\src\monster.cpp
+	"monster.h"
+	<fstream>
+	<sstream>
+
