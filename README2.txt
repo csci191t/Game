@@ -17,6 +17,28 @@ To make this game easier to function and code, the game map will have strict mov
   
 More on the game scene will be added when I start getting things rolling with it.
 
+Hero Select Scene:
+Don't need the dedicated hero sprites yet, however, the scene should present a list of playable heros the user can choose from.
+When a hero is selected, it should display the hero's information. Choosing a hero will be recorded somewhere visible so that the user
+can see who is in the hero team. I think when it comes to a "reset team" function, creating a button for the user to click should empty
+the hero team and the user can start over selecting heroes again. There should be a button to confirm the final team. Needs a check to
+make sure that only 4 heroes are allowed to be selected.
+
+Battle Scene:
+This one is going to be fairly difficult because it will involve some back end sprite editing possibly. Right now the scene should grab the information from a location with a monster and a hero (the structure is a vector, so multiple monsters and heroes can be in the same
+location).
+
+Ideally, a max of four heroes and six monsters should only be allowed in one location. I'll need to provide something that checks monster count, that will be updated soon.
+
+Within the battle scene, the backend battle controller should check the movement of every unit and the highest movement unit will go first.
+
+At this point, I'm not entirely sure how we are going to display a hero's weapon/spell set because that involves searching the unit's inventory and then displaying them onto a HUD with clickable buttons (images of item is button). Clicking on button will invoke the attack. This is the hardest part of the Scene so far because it involves programming that needs the HUD to be updated everytime it is
+the user Hero's turn. This should probably be the last thing to code before everything else since it requires the setup of the Scene anyway so we can all work on this together.
+
+Find an appropriate damage calculator that takes in info from Hero, Item, and perform checks.
+
+===
+
 For everyone else, each of you volunteered to do other Scenes or backend methods, I'd like you guys to create a repository of your own within the Game project board and upload any significant updates as you go along. Please in the README, explain the methods you are using and a general idea of how everything works.
 
 Also any questions on how the Scene should be structured or how things should look or anything general about coding, don't be afraid to ask. If you have any interesting links or articles to share, feel free as well.
