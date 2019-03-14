@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gameTestVisual" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gameTestVisual" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/dasec/Desktop/Csci191/common/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gameTestVisual" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/dasec/Desktop/Csci191/common/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/dasec/Desktop/Csci191/common/include" />
+		</Compiler>
+		<Linker>
+			<Add library="../common/lib/libSOIL.a" />
+			<Add library="glut32" />
+			<Add library="../common/lib/glut32.lib" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Users/dasec/Desktop/Csci191/common/lib" />
+			<Add directory="../gameTestVisual" />
+		</Linker>
+		<Unit filename="include/GLLight.h" />
+		<Unit filename="include/GLScene.h" />
+		<Unit filename="include/Inputs.h" />
+		<Unit filename="include/Model.h" />
+		<Unit filename="include/Texture.h" />
+		<Unit filename="include/commonUtils.h" />
+		<Unit filename="include/gameScene.h" />
+		<Unit filename="include/gameSceneHud.h" />
+		<Unit filename="include/heroTeam.h" />
+		<Unit filename="include/locationsList.h" />
+		<Unit filename="include/player.h" />
+		<Unit filename="include/textureLoader.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/GLLight.cpp" />
+		<Unit filename="src/GLScene.cpp" />
+		<Unit filename="src/Inputs.cpp" />
+		<Unit filename="src/Model.cpp" />
+		<Unit filename="src/commonUtils.cpp" />
+		<Unit filename="src/gameScene.cpp" />
+		<Unit filename="src/gameSceneHud.cpp" />
+		<Unit filename="src/heroTeam.cpp" />
+		<Unit filename="src/locationsList.cpp" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/textureLoader.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
