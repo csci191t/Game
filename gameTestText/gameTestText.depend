@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1551992117 source:c:\users\dasec\desktop\csci191\gametesttext\main.cpp
+	<iostream>
+	"hero.h"
+	"item.h"
+	"deck.h"
+	"monster.h"
+	"eventc.h"
+
+1551205026 source:c:\users\dasec\desktop\csci191\gametesttext\hero.cpp
+	<iostream>
+	<cstdlib>
+	"hero.h"
+	"string.h"
+	<vector>
+	<fstream>
+	"item.h"
+
+1551208638 c:\users\dasec\desktop\csci191\gametesttext\hero.h
+	"string.h"
+	<vector>
+	"item.h"
+
+1551220179 c:\users\dasec\desktop\csci191\gametesttext\item.h
+	<iostream>
+	"string.h"
+
+1551208218 source:c:\users\dasec\desktop\csci191\gametesttext\item.cpp
+	"item.h"
+	<iostream>
+	"string.h"
+
+1551991380 c:\users\dasec\desktop\csci191\gametesttext\include\item.h
+	<iostream>
+	"string.h"
+
+1551990899 source:c:\users\dasec\desktop\csci191\gametesttext\src\hero.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"hero.h"
+	<string>
+	<algorithm>
+
+1551990648 c:\users\dasec\desktop\csci191\gametesttext\include\hero.h
+	"string.h"
+	<vector>
+	"item.h"
+
+1551991535 source:c:\users\dasec\desktop\csci191\gametesttext\src\item.cpp
+	"item.h"
+	<iostream>
+	"string.h"
+
+1551990595 source:c:\users\dasec\desktop\csci191\gametesttext\src\deck.cpp
+	"deck.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+	<algorithm>
+	<random>
+	<chrono>
+
+1551990596 c:\users\dasec\desktop\csci191\gametesttext\include\deck.h
+	<iostream>
+	"string.h"
+	<vector>
+	"item.h"
+	"eventc.h"
+
+1551483613 source:c:\users\dasec\desktop\csci191\gametesttext\src\location.cpp
+	"location.h"
+
+1552080641 c:\users\dasec\desktop\csci191\gametesttext\include\location.h
+	"string.h"
+	"deck.h"
+
+1551659141 c:\users\dasec\desktop\csci191\gametesttext\include\monster.h
+	"string.h"
+	"item.h"
+
+1551659839 source:c:\users\dasec\desktop\csci191\gametesttext\src\monster.cpp
+	"monster.h"
+	<fstream>
+	<sstream>
+
+1551825227 source:c:\users\dasec\desktop\csci191\gametesttext\src\event.cpp
+	"event.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+
+1551826612 c:\users\dasec\desktop\csci191\gametesttext\include\event.h
+	<iostream>
+	"string.h"
+	"hero.h"
+	"deck.h"
+
+1551992737 c:\users\dasec\desktop\csci191\gametesttext\include\eventc.h
+	<iostream>
+	"string.h"
+	"hero.h"
+
+1551992098 source:c:\users\dasec\desktop\csci191\gametesttext\src\eventc.cpp
+	"eventc.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+

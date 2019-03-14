@@ -1,0 +1,5 @@
+LuckyFind,Location,11001,Item,true,Luck,5,Random,Gain,SurplusStore
+CemetaryScare,Location,11002,Resource,false,None,0,Fortitude,Loss,25
+AroundCorner,Location,11003,Monster,false,None,0,Random,None,None
+TaxiService,Location,11004,Status,false,None,0,Move,Hospital
+StrangeBook,Location,11005,Item,true,Myth,5,Random,Gain,MagicShop
